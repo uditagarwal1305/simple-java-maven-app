@@ -7,7 +7,7 @@ pipeline {
         stage('Build'){
             
             agent {
-                label "myslavemaven"
+                label "docker123"
             }
           
           steps {
